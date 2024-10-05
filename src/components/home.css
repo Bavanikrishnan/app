@@ -1,0 +1,64 @@
+.hero {
+  background-color: #f4f4f4;
+  padding: 2rem;
+  text-align: center;
+  border: 2px solid #333;
+  border-radius: 20px;
+  max-width: 90%; /* Use percentage for better responsiveness */
+  margin: 5rem auto; /* Center the hero section */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: auto; /* Allow the height to adjust with content */
+}
+
+.hero h1 {
+  font-size: 3rem; /* Adjusted to a smaller size */
+  margin-bottom: 1rem;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.bavani {
+  position: relative;
+  height: auto; /* Adjust height dynamically */
+  width: 100%; /* Use percentage width */
+  max-width: 350px; /* Max width for larger screens */
+  margin: -150px auto 0; /* Adjust margin to fit smaller screens */
+  border-radius: 50%;
+  margin-left: 900px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 1.5rem;
+    margin: 3rem auto;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .bavani {
+    margin-top: -100px;
+    max-width: 250px; /* Smaller image for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 1rem;
+    margin: 2rem auto;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .bavani {
+    margin-top: -0px;
+    max-width: 200px;
+    margin-left: 25px;
+    }
+}

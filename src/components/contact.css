@@ -1,0 +1,97 @@
+.contact-page {
+  padding: 40px; /* Adjusted padding for responsiveness */
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 90%; /* Ensure the contact page is not too wide on large screens */
+  margin: 0 auto; /* Center the contact page */
+}
+
+.contact-form {
+  max-width: 100%; /* Adjusted to full width for small screens */
+  margin: 0 auto;
+}
+
+.h1 {
+  font-size: 3rem; /* Adjusted font size for responsiveness */
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+  background-color: peachpuff;
+  padding: 40px; /* Adjusted padding for better spacing */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Media Query for tablets */
+@media (max-width: 768px) {
+  .contact-page {
+    padding: 30px;
+  }
+
+  .h1 {
+    font-size: 2.5rem; /* Smaller heading for tablets */
+    padding: 30px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 14px; /* Reduce input and textarea font size for smaller screens */
+  }
+
+  .submit-button {
+    padding: 8px 16px; /* Adjust button padding for tablets */
+  }
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 480px) {
+  .contact-page {
+    padding: 20px;
+  }
+
+  .h1 {
+    font-size: 2rem; /* Smaller heading for mobile */
+    padding: 20px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 12px; /* Further reduce font size for mobile */
+  }
+
+  .submit-button {
+    padding: 8px 12px; /* Adjust button padding for mobile */
+  }
+}
